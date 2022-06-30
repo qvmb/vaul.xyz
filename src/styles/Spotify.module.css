@@ -1,3 +1,7 @@
+.spotify {
+        display: flex;
+}
+
 .inactivityText {
         font-size: 20px;
 }

@@ -1,0 +1,23 @@
+.profile {
+        display: flex;
+        word-break: keep-all;
+        gap: 10px;
+}
+
+.profileContent {
+        display: block;
+        width: 100%;
+      
+}
+
+.username {
+        color: #bcbcbc;
+        font-size: 26px;
+        font-weight: 300;
+}
+
+.userstate {
+        color: #7c7c7c;
+        font-size: 23px;
+        font-weight: 300;
+}

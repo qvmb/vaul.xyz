@@ -14,7 +14,7 @@ const Spotify = (props) => {
                 clearInterval(spotifyInterval);
                 if (data.spotify != null) spotifyInterval = setInterval(() => { setSongProgress(timestampsToPrecents(data.spotify.timestamps.start, data.spotify.timestamps.end))}, 1000);
                 return (
-                        <div className="spotify flexible" style={{alignItems: "center"}}>
+                        <div className={style.spotify} style={{alignItems: "center"}}>
                                 {
                                         data.spotify == null ? (
                                                 <p className={style.inactivityText}>not listening to anything atm</p>
