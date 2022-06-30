@@ -1,0 +1,33 @@
+.inactivityText {
+        font-size: 20px;
+}
+
+.cover {
+        height: 80px;
+        width: 80px;
+        border-radius: 5px;
+}
+
+.song {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--text-col);
+}
+
+.artist {
+        font-weight: 500;
+        color: #7c7c7c;
+}
+
+.album {
+        font-weight: 400;
+        color: #7c7c7c;
+}
+
+.bar {
+        background-color: #e13053;
+        display: block;
+        height: 1px;
+        margin: 5px 0;
+        transition: .1s ease 0s;
+}
