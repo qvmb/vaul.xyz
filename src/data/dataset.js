@@ -25,7 +25,7 @@ export function getPreparedDataset() {
                 spotify: data.listening_to_spotify === false ? null : {
                         song: data.spotify.song,
                         artist:  data.spotify.artist,
-                        album: data.spotify.album,
+                        album: data.spotify.album.large_text,
                         cover: data.spotify.album_art_url,
                         timestamps: {
                                 start: data.spotify.timestamps.start,
