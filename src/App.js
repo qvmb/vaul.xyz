@@ -1,5 +1,5 @@
 import './App.css';
-import { getPreparedDataset} from './data/dataset';
+import { getPreparedDataset } from './data/dataset';
 import Profile from './components/profile';
 import Spotify from './components/spotify';
 import About from './components/about';
