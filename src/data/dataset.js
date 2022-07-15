@@ -19,7 +19,7 @@ export function getPreparedDataset() {
                         state: data.discord_status,
                         stateColor: statusColors[data.discord_status],
                         status: data.activities.length !== 0 ? data.activities[0].name === "Custom Status" ? data.activities[0].state : null : null,
-                        avatar: `https://cdn.discordapp.com/avatars/${data.discord_user.id}/${data.discord_user.avatar}.gif`
+                        avatar: `https://cdn.discordapp.com/avatars/${data.discord_user.id}/${data.discord_user.avatar}`
                 },
 
                 spotify: data.listening_to_spotify === false ? null : {
