@@ -5,11 +5,11 @@ const About = () => {
         return (
                 <p className={style.about}>
                         about me <br></br>
-                        » senior software engineer at zasiłek dla bezrobotnych <br></br>
-                        » country of living saudi arabian <br></br>
-                        » memory drive 5 <br></br>
-                        » peja in szafa <br></br>
-                        » chomikbox <br></br>
+                        » krzywy chuj <br></br>
+                        » country of living liban <br></br>
+                        » b <br></br>
+                        » kaknan <br></br>
+                        » rogue lineage enjoyer <br></br>
                 </p>
         )
 }
