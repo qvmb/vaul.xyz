@@ -21,9 +21,7 @@ function App() {
         <div className="body">
             <About/>
         </div>
-        <div className="body">
-            <Contact/>
-        </div>
+    
         <div className="body" style={{padding: "20px !important"}}>
             <Socials/>
         </div>
