@@ -3,7 +3,6 @@ import { getPreparedDataset } from './data/dataset';
 import Profile from './components/profile';
 import Spotify from './components/spotify';
 import About from './components/about';
-import Contact from './components/contact';
 import Socials from './components/socials';
 
 function App() {
