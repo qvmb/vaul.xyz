@@ -3,7 +3,7 @@ import { w3cwebsocket as Websocket } from "websocket";
 
 import { OPCODES, logEvent } from "./misc";
 
-const userId = "818606240371310622";
+const userId = "956267432689958973";
 
 const client = new Websocket("wss://api.lanyard.rest/socket");
 
